@@ -7,5 +7,7 @@ bp = pd.DataFrame({
 })
 
 avg_mean_systolic = bp["systolic"].mean()
+avg_mean_diastolic = bp["diastolic"].mean()
 
 print(avg_mean_systolic)
+print(avg_mean_diastolic)
