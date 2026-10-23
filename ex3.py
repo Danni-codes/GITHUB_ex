@@ -5,3 +5,7 @@ bp = pd.DataFrame({
     "systolic": [118, 135, 142, 125, 155], 
     "diastolic": [76, 82, 91, 79, 95] 
 })
+
+avg_mean_systolic = bp["systolic"].mean()
+
+print(avg_mean_systolic)
